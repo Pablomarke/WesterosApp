@@ -14,7 +14,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var houseTargaryenButton: UIButton!
     
     // MARK: - Selected Deelegate
-    var delegate: CharactherSelectedDelegate?
+    weak var delegate: CharactherSelectedDelegate?
     
     // MARK: - Model
     private let characters: [Character] = [.danaerys, .jon]

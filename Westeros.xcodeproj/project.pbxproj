@@ -16,6 +16,10 @@
 		398931BC2A9E6F260089C10D /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931BB2A9E6F260089C10D /* House.swift */; };
 		398931C12A9E7EE50089C10D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931C02A9E7EE50089C10D /* SecondViewController.swift */; };
 		398931C32A9E81580089C10D /* HouseSelectedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931C22A9E81580089C10D /* HouseSelectedDelegate.swift */; };
+		39A906ED2AA1077000760EB9 /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A906EC2AA1077000760EB9 /* HouseTableViewCell.swift */; };
+		39A906EF2AA107E500760EB9 /* HouseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A906EE2AA107E500760EB9 /* HouseListTableViewController.swift */; };
+		39A906F12AA10ED300760EB9 /* CharacterListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A906F02AA10ED300760EB9 /* CharacterListCollectionViewController.swift */; };
+		39A906F32AA1105700760EB9 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A906F22AA1105700760EB9 /* CharacterCollectionViewCell.swift */; };
 		39A9FE7B2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9FE7A2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		398931BB2A9E6F260089C10D /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		398931C02A9E7EE50089C10D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		398931C22A9E81580089C10D /* HouseSelectedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseSelectedDelegate.swift; sourceTree = "<group>"; };
+		39A906EC2AA1077000760EB9 /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewCell.swift; sourceTree = "<group>"; };
+		39A906EE2AA107E500760EB9 /* HouseListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListTableViewController.swift; sourceTree = "<group>"; };
+		39A906F02AA10ED300760EB9 /* CharacterListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCollectionViewController.swift; sourceTree = "<group>"; };
+		39A906F22AA1105700760EB9 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		39A9FE7A2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CharacterSelectedDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +99,8 @@
 				398931AB2A9E6ED80089C10D /* ViewController.swift */,
 				398931C02A9E7EE50089C10D /* SecondViewController.swift */,
 				39A9FE7A2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift */,
+				39A906EE2AA107E500760EB9 /* HouseListTableViewController.swift */,
+				39A906F02AA10ED300760EB9 /* CharacterListCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,6 +108,8 @@
 		398931BF2A9E7B5C0089C10D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				39A906EC2AA1077000760EB9 /* HouseTableViewCell.swift */,
+				39A906F22AA1105700760EB9 /* CharacterCollectionViewCell.swift */,
 				398931AD2A9E6ED80089C10D /* Main.storyboard */,
 			);
 			path = View;
@@ -176,10 +188,14 @@
 			files = (
 				398931AC2A9E6ED80089C10D /* ViewController.swift in Sources */,
 				398931A82A9E6ED80089C10D /* AppDelegate.swift in Sources */,
+				39A906ED2AA1077000760EB9 /* HouseTableViewCell.swift in Sources */,
 				398931C32A9E81580089C10D /* HouseSelectedDelegate.swift in Sources */,
 				398931BC2A9E6F260089C10D /* House.swift in Sources */,
+				39A906EF2AA107E500760EB9 /* HouseListTableViewController.swift in Sources */,
 				398931C12A9E7EE50089C10D /* SecondViewController.swift in Sources */,
 				398931AA2A9E6ED80089C10D /* SceneDelegate.swift in Sources */,
+				39A906F12AA10ED300760EB9 /* CharacterListCollectionViewController.swift in Sources */,
+				39A906F32AA1105700760EB9 /* CharacterCollectionViewCell.swift in Sources */,
 				39A9FE7B2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

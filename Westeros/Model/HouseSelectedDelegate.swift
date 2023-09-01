@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol CharactherSelectedDelegate {
+protocol CharactherSelectedDelegate: AnyObject {
     func didSelect(_ character: Character)
 }
