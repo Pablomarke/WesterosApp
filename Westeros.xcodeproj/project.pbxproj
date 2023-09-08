@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391D94E82AAB0D06006D5101 /* TableExerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D94E72AAB0D06006D5101 /* TableExerciseController.swift */; };
 		398931A82A9E6ED80089C10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931A72A9E6ED80089C10D /* AppDelegate.swift */; };
 		398931AA2A9E6ED80089C10D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931A92A9E6ED80089C10D /* SceneDelegate.swift */; };
 		398931AC2A9E6ED80089C10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398931AB2A9E6ED80089C10D /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391D94E72AAB0D06006D5101 /* TableExerciseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExerciseController.swift; sourceTree = "<group>"; };
 		398931A42A9E6ED80089C10D /* Westeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398931A72A9E6ED80089C10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398931A92A9E6ED80089C10D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				39A9FE7A2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift */,
 				39A906EE2AA107E500760EB9 /* HouseListTableViewController.swift */,
 				39A906F02AA10ED300760EB9 /* CharacterListCollectionViewController.swift */,
+				391D94E72AAB0D06006D5101 /* TableExerciseController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				39A906EF2AA107E500760EB9 /* HouseListTableViewController.swift in Sources */,
 				398931C12A9E7EE50089C10D /* SecondViewController.swift in Sources */,
 				398931AA2A9E6ED80089C10D /* SceneDelegate.swift in Sources */,
+				391D94E82AAB0D06006D5101 /* TableExerciseController.swift in Sources */,
 				39A906F12AA10ED300760EB9 /* CharacterListCollectionViewController.swift in Sources */,
 				39A906F32AA1105700760EB9 /* CharacterCollectionViewCell.swift in Sources */,
 				39A9FE7B2A9F21BF00273B14 /* ViewController+CharacterSelectedDelegate.swift in Sources */,

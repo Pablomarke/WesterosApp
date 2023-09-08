@@ -8,7 +8,7 @@
 import UIKit
 
 class HouseTableViewCell: UITableViewCell {
-
+    
     static let identifier = "HouseTableViewCell"
     @IBOutlet weak var houseNameLabel: UILabel!
     
